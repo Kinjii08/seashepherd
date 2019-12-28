@@ -382,3 +382,185 @@ Blog articles section
 .artPictures:last-child{
   margin: 0;
 }
+
+/*
+
+Vidéos section
+
+*/
+#videoSection{
+  background-color: #034256;
+  border-top: 4px solid #051c24;
+  margin: 0;
+}
+
+.ourVideos{
+  width: 78%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.videos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.ourVideos > p:first-child{
+  font-size: 1.6rem;
+  line-height: 1.2;
+  letter-spacing: 0.09rem;
+  font-family: 'Helvetica Neue LT Std', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  color: #f45700;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.ourVideos > p:nth-child(2){
+  font-size: 1.8rem;
+  line-height: 1.4;
+  letter-spacing: 0.09rem;
+  font-family: 'Helvetica Neue LT Std', 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+  padding-bottom: 5px;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+}
+
+/*
+
+Footer section
+
+*/
+
+footer{
+    background-color: #051c24;
+    padding-top: 20px;
+}
+
+.footerContainer{
+  width: 80%;
+  margin: auto;
+}
+
+.services{
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #034256;
+  padding-bottom: 15px;
+}
+
+.newsletterButton{
+  width: 30%;
+  background-color: #f45700;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+  margin: auto;
+}
+
+.services > p:nth-child(2){
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: -.06em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  color: #f45700;
+}
+
+.cardsContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background-color: #fff;
+  width: 300px;
+  margin: 2px 30px 2px 30px;
+  height: 100%;
+}
+
+.card > p{
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  margin: 0;
+}
+
+.card > p:nth-child(1){
+  padding-top: 1rem;
+  margin-bottom: .4em;
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: #f45700;
+}
+
+.card > p:nth-child(2){
+  min-height: 2.5em;
+  font-size: 1.5rem;
+  line-height: 0.75;
+  letter-spacing: -.02em;
+  color: #0082bc;
+}
+
+.card > p:last-child{
+  color: #439a86;
+  font-size: 1rem;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.linkCard:hover > .card > p:last-child{
+  color: #4d4d4d;
+}
+
+.informations{
+  display: flex;
+  margin-top: 15px;
+}
+
+h2{
+  font-family: "roboto", sans-serif;
+  font-weight: 510;
+  color: #4d4d4d;
+  font-size: 1.9rem;
+  margin: 0.75rem 0 1.5rem 0;
+}
+
+.toTop{
+  display: block;
+}
+
+.logoContainer{
+  width: 62%;
+}
+
+.logoSSF{
+  width: 150px;
+}
+
+.aboutUs{
+  width: 23%;
+}
+
+.aboutUs > p{
+  margin: 0 0 5px 0;
+}
+
+.followUs{
+  width: 15%;
+  text-align: right;
+}
+
+.socialList{
+  text-align: left;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.socialList > li{
+  margin-bottom: 7px;
+}
+
+.fa{
+  margin-right: 5px;
+}

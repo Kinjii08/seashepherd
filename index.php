@@ -6,6 +6,7 @@
     <meta name="Sea Shepherd" content="This web site it's just an exercice">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="pictures\favicon.ico">
+    <script src="https://use.fontawesome.com/b0542d5910.js"></script>
   </head>
   <body>
     <header>
@@ -91,17 +92,89 @@
         </div>
         <aside id="articlesPictures">
           <div class="artPictures">
-            <img src="pictures\nyamba_home-500.jpg" alt="Opération Nyamba 2017">
+            <a href="https://nyamba.seashepherd.info"><img src="pictures\nyamba_home-500.jpg" alt="Opération Nyamba 2017"></a>
           </div>
           <div class="artPictures">
-            <img src="pictures\news-170711-fr-01-550w.jpg" alt="Opération Albacore 2017">
+            <a href="https://www.seashepherd.fr/index.php/actu-editos/actualites/11-news-20170713-fr-01"><img src="pictures\news-170711-fr-01-550w.jpg" alt="Opération Albacore 2017"></a>
           </div>
           <div class="artPictures">
-            <img src="pictures\2015_op_mare_nostrum_550w.jpg" alt="Opération Mare Nostrum 2017">
+            <a href="https://www.seashepherd.fr/index.php/actu-editos/actualites/9-news-20170804-fr-01"><img src="pictures\2015_op_mare_nostrum_550w.jpg" alt="Opération Mare Nostrum 2017"></a>
           </div>
         </aside>
       </div>
     </section>
+    <section id="videoSection">
+      <div class="ourVideos">
+        <p>Sea Shepherd En Action</p>
+        <p>Nos dernières vidéos</p>
+        <div class="videos">
+          <div class="">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSeaShepherdFrance%2Fvideos%2F2344719418937266%2F&amp;width=734&amp;show_text=false&amp;appId=811949788880899&amp;height=551" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media" allowfullscreen="allowfullscreen" style="border: none; overflow: hidden;" width="560px" height="315px"></iframe>
+          </div>
+          <div class="">
+            <iframe src="https://www.youtube.com/embed/muyR17ba3a0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" width="560" height="315"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footerContainer">
+        <div class="services">
+          <p class="newsletterButton"><a href="#">Inscription à la Newsletter</a></p>
+          <p>Soutenez nos actions en faveur des Océans !</p>
+          <div class="cardsContainer">
+            <a class="linkCard" href="https://www.seashepherd.fr/index.php/impliquez-vous">
+              <div class="card">
+                <p>Participez à nos actions</p>
+                <p>Rejoignez-nous</p>
+                <img src="pictures\footer_join.png" alt="Icone Rejoignez-Nous">
+                <p>En apprendre davantage...</p>
+              </div>
+            </a>
+            <a class="linkCard" href="https://www.seashepherd.fr/index.php/Soutenez-Nous/">
+              <div class="card">
+                <p>Soutenez-Nous</p>
+                <p>Faites un Don</p>
+                <img src="pictures\footer_donate.png" alt="Icone Soutenez-Nous">
+                <p>En apprendre davantage...</p>
+              </div>
+            </a>
+            <a class="linkCard" href="https://seashepherd-shop.com/fr/">
+              <div class="card">
+                <p>Boutique</p>
+                <p>Articles Sea Shepherd</p>
+                <img src="pictures\footer_shop.png" alt="Icone Boutique">
+                <p>En apprendre davantage...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact">
+          <a class="toTop" href="#">To Top</a>
+          <div class="informations">
+            <div class="logoContainer">
+              <a href="/"><img class="logoSSF" src="pictures\logoSSF.jpg" alt="SeaShepherd.fr logo"></a>
+            </div>
+            <div class="aboutUs">
+              <h2>À propos de nous</h2>
+              <p><a href="mailto:contact@seashepherd.fr">Contactez-Nous</a></p>
+              <p><a href="https://www.seashepherd.fr/index.php/mentions-legales">Mentions légales</a></p>
+            </div>
+            <div class="followUs">
+              <h2>Suivez-Nous :</h2>
+              <ul class="socialList">
+                <li><a href="https://www.facebook.com/SeaShepherdFrance/"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+                <li><a href="https://www.youtube.com/user/SeaShepherdFR"><i class="fa fa-youtube-square"></i>YouTube</a></li>
+                <li><a href="https://twitter.com/SeaShepherdFran?lang=fr"><i class="fa fa-twitter"></i>Twitter</a></li>
+                <li><a href="https://www.instagram.com/seashepherdfrance/"><i class="fa fa-instagram"></i>Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </footer>
     <script src="popup.js"></script>
   </body>
 </html>
