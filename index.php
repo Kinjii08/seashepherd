@@ -15,16 +15,16 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Qui sommes nous ?</a></li>
-          <li><a href="#">Nos Campagnes</a></li>
-          <li><a href="#">Impliquez-vous</a></li>
-          <li><a href="#">Evenements</a></li>
-          <li><a href="#">Boutique</a></li>
+          <li><a href="https://www.seashepherd.fr/index.php/qui-sommes-nous">Qui sommes nous ?</a></li>
+          <li><a href="https://nyamba.seashepherd.info/">Nos Campagnes</a></li>
+          <li><a href="https://www.seashepherd.fr/index.php/impliquez-vous">Impliquez-vous</a></li>
+          <li><a href="https://www.seashepherd.fr/index.php/evenements">Evenements</a></li>
+          <li><a href="https://seashepherd-shop.com/fr/">Boutique</a></li>
         </ul>
       </nav>
       <div id="help">
         <div class="support">
-          <p><a href="#">Soutenez-Nous !</a></p>
+          <p><a href="https://www.seashepherd.fr/index.php/Soutenez-Nous/">Soutenez-Nous !</a></p>
         </div>
       </div>
     </header>
@@ -59,7 +59,7 @@
               <p class="date styleTexte">Jeudi 26 Décembre 2019</p>
               <p class="title styleTexte">Pêche au Chalut interdite sur le plateau de Rochebonne : La mobilisation paye !</p>
               <p class="content styleTexte">Plus de 4300 contributions essentiellement favorables à l'interdiction de la pêche sur le plateau ont encouragé Fabienne BUCCIO, préfète de Nouvelle Aquitaine, à mettre fin aux accords de 1978 en interdisant définitivement la pêche au chalut sur l'ensemble du site.</p>
-              <p class="more"><a class="styleTexte" href="#">Lire la suite...</a></p>
+              <p class="more"><a class="styleTexte" href="https://www.seashepherd.fr/index.php/actu-editos/actualites/187-news-26122019-fr-01">Lire la suite...</a></p>
             </div>
           </div>
           <div class="articlesShape">
@@ -68,7 +68,7 @@
               <p class="date styleTexte">Mardi 17 Décembre 2019</p>
               <p class="title styleTexte">Quatre chalutiers arrêtés dans les eaux protégées du Bénin</p>
               <p class="content styleTexte">Avec l’aide de l’équipage de Sea Shepherd, des marins armés de la marine béninoise ont appréhendé et arrêté quatre chalutiers industriels qui pêchaient illégalement dans les eaux du Bénin, un pays d’Afrique de l’ouest.</p>
-              <p class="more"><a class="styleTexte" href="#">Lire la suite...</a></p>
+              <p class="more"><a class="styleTexte" href="https://www.seashepherd.fr/index.php/actu-editos/actualites/186-news-17122019-fr-01">Lire la suite...</a></p>
             </div>
           </div>
           <div class="articlesShape">
@@ -77,7 +77,7 @@
               <p class="date styleTexte">Mercredi 11 Décembre 2019</p>
               <p class="title styleTexte">Réaction aux solutions proposées par Edouard Philippe pour enrayer l'hécatombe de dauphins dans les eaux françaises</p>
               <p class="content styleTexte">Alors que le lancement de la troisième édition de l'Opération Dolphin Bycatch est imminent, le premier ministre vient de publier un communiqué faisant état de ses solutions pour enrayer le carnage qui met en péril la survie de la population de dauphins du golfe de Gascogne.</p>
-              <p class="more"><a class="styleTexte" href="#">Lire la suite...</a></p>
+              <p class="more"><a class="styleTexte" href="https://www.seashepherd.fr/index.php/actu-editos/actualites/185-news-11122019-fr-01">Lire la suite...</a></p>
             </div>
           </div>
           <div class="articlesShape">
@@ -86,7 +86,7 @@
               <p class="date styleTexte">Lundi 2 Décembre 2019</p>
               <p class="title styleTexte">Opération Siso 2019 : Sea Shepherd de retour en Méditerranée avec la Marine italienne</p>
               <p class="content styleTexte">Sea Shepherd se bat contre la pollution plastique causée par le matériel de pêche illégal, qui constitue depuis longtemps la plus importante cause de pollution plastique responsable de la destruction du fond marin de la Méditerranée, de son écosystème et de ses récifs coralliens.</p>
-              <p class="more"><a class="styleTexte" href="#">Lire la suite...</a></p>
+              <p class="more"><a class="styleTexte" href="https://www.seashepherd.fr/index.php/actu-editos/actualites/184-news-02122019-fr-01">Lire la suite...</a></p>
             </div>
           </div>
         </div>
