@@ -1,0 +1,67 @@
+@media screen and (max-width: 1300px) {
+  .mainPicture{
+    height: 400px;
+  }
+
+  .articles{
+    width: 65%;
+  }
+
+  #articlesPictures{
+    width: 35%;
+  }
+
+  .articlesShape > a{
+    display: none;
+  }
+
+  .ourVideos{
+    width: 90%;
+  }
+
+  .card{
+    width: 250px;
+  }
+
+  .logoContainer{
+    width: 56%;
+  }
+
+  .aboutUs{
+    width: 28%;
+  }
+
+  .followUs{
+    width: 22%;
+  }
+
+  .socialList{
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 1100px){
+  .titles{
+    width: 100%;
+  }
+  #articlesContainer{
+    flex-direction: column;
+  }
+
+  #articlesPictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .artPictures{
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .articles{
+    width: 100%;
+  }
+}
