@@ -60,11 +60,91 @@ body {
   font-weight: 400;
   text-align: justify;
   line-height: 1.5;
+  display: flex;
+  position: initial;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+#leftMenu{
+  width: 0; /* 275px*/
+  z-index: 300;
+  background-color: #354d59;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  box-shadow: inset -10px 0px 10px 1px rgba(0,0,0,0.3);
+  transition: 0.5s;
+}
+
+.stickButton{
+  position: relative;
+}
+
+.menuButton{
+  position: absolute;
+  top: -475px;
+  right: -60px;
+  width: 40px;
+  height: 40px;
+}
+
+.menuButton::after{
+  content: '\f0c9';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin:0px 0px 0px 10px;
+  text-decoration:none;
+  position: absolute;
+  top: 3px;
+  right: 7px;
+}
+
+#close{
+  display: none;
+}
+
+.leftMenuUl{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.leftMenuUl > li{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.leftMenuUl > li > a{
+  display: block;
+  padding: 15px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.leftMenuUl > li:hover{
+  background-color: #3d8c7a;
+  box-shadow: inset -10px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+#background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 250;
+  visibility: hidden;
+}
+
+#mainPage{
+  width: 100%;
 }
 
 header {
@@ -104,12 +184,12 @@ img {
   vertical-align: middle;
 }
 
-nav {
+header > nav {
   width: 60%;
   height: 99px;
 }
 
-nav>ul {
+header > nav>ul {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -119,7 +199,7 @@ nav>ul {
   justify-content: center;
 }
 
-nav>ul>li {
+header > nav>ul>li {
   display: flex;
   align-items: center;
   width: 18%;
@@ -132,11 +212,11 @@ nav>ul>li {
   cursor: pointer;
 }
 
-nav>ul>li:hover {
+header > nav>ul>li:hover {
   background: rgba(0, 0, 0, 0.2);
 }
 
-nav>ul>li>a {
+header > nav>ul>li>a {
   text-decoration: none;
   color: #fff;
   padding: 15px;
@@ -277,7 +357,6 @@ Blog articles section
   margin: auto;
   margin-top: 50px;
   padding-bottom: 100px;
-  /* height: 900px; */
 }
 .titles{
   width: 80%;
@@ -414,6 +493,11 @@ Vidéos section
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+}
+
+.half{
+  width: 560px;
+  height: 315px;
 }
 
 .ourVideos > p:first-child{
