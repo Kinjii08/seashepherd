@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Sea Shepherd Exercice</title>
     <meta name="Sea Shepherd" content="This web site it's just an exercice">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" media="screen" href="screen.css"/>
-    <link rel="stylesheet" href="menuAnimation.css">
     <link rel="shortcut icon" href="pictures\favicon.ico">
     <script src="https://use.fontawesome.com/b0542d5910.js"></script>
   </head>

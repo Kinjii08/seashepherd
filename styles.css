@@ -90,6 +90,10 @@ a {
   right: -60px;
   width: 40px;
   height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+
 }
 
 .menuButton::after{
@@ -101,12 +105,17 @@ a {
   margin:0px 0px 0px 10px;
   text-decoration:none;
   position: absolute;
-  top: 3px;
-  right: 7px;
+  top: 6px;
+  right: 9px;
+  color: #fff;
 }
 
 #close{
   display: none;
+}
+
+#open{
+  visibility: hidden;
 }
 
 .leftMenuUl{
@@ -120,6 +129,7 @@ a {
   height: 100px;
   width: 100%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .leftMenuUl > li > a{
@@ -288,6 +298,7 @@ header > nav>ul>li>a {
 }
 
 .quotation>p:first-child {
+  width: 100%;
   font-size: 1.6rem;
   letter-spacing: 0.09rem;
   margin: 0;
@@ -392,7 +403,6 @@ Blog articles section
 }
 
 .articles div{
-  flex: 1;
   width: 100%;
 }
 
@@ -643,12 +653,11 @@ h2{
 }
 
 .followUs{
-  width: 15%;
-  text-align: right;
+  width: 18%;
 }
 
 .socialList{
-  text-align: left;
+  padding: 0;
   list-style: none;
   box-sizing: border-box;
 }
