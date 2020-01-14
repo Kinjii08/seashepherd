@@ -5,6 +5,7 @@
     <title>Sea Shepherd Exercice</title>
     <meta name="Sea Shepherd" content="This web site it's just an exercice">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" media="screen" href="screen.css"/>
     <link rel="shortcut icon" href="pictures\favicon.ico">
