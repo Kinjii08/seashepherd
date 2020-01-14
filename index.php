@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" media="screen" href="screen.css"/>
+    <link rel="stylesheet" media="screen" href="css/screen.css"/>
     <link rel="shortcut icon" href="pictures\favicon.ico">
     <script src="https://use.fontawesome.com/b0542d5910.js"></script>
   </head>
@@ -197,7 +197,7 @@
         </div>
       </footer>
     </div>
-    <script src="popup.js"></script>
-    <script src="menuAnimation.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/menuAnimation.js"></script>
   </body>
 </html>
